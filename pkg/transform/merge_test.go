@@ -14,7 +14,7 @@ func TestMerge(t *testing.T) {
 	}
 	destination := "/Users/perseus/Documents/inbox_excel/merged.xlsx"
 	
-	err := Merge2(sources, destination)
+	err := Merge(sources, destination)
 
 	if err != nil {
 		t.Error(err)
